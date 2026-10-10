@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    ```
+    <title>AURELLE | By Rahul Gupta</title>
+
+    <meta name="description"
+        content="Discover AURELLE, a modern cafe and fine dining experience in Alpha 1, Greater Noida.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    ```
+
+</head>
+
+<body>
+
+    ```
+    <!-- Navigation -->
+    <header class="navbar glass">
+
+        <a href="#home" class="logo">
+            AURELLE
+            <span>BY RAHUL GUPTA</span>
+        </a>
+
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#reservation" class="nav-button">
+            Reserve a Table ↗
+        </a>
+
+        <button id="menuToggle" class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">✦ THE ART OF MODERN DINING</p>
+
+                <h1>
+                    A taste of
+                    <span>something</span>
+                    extraordinary.
+                </h1>
+
+                <p class="hero-description">
+                    Where modern cafe culture meets the art of fine dining.
+                    Discover beautiful flavours, thoughtfully prepared
+                    for unforgettable moments.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#menu" class="primary-button">
+                        Explore Our Menu ↗
+                    </a>
+
+                    <a href="#story" class="secondary-button">
+                        Our Story
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>Fresh</strong>
+                        <span>Quality Ingredients</span>
+                    </div>
+
+                    <div>
+                        <strong>Unique</strong>
+                        <span>Signature Flavours</span>
+                    </div>
+
+                    <div>
+                        <strong>Special</strong>
+                        <span>Every Experience</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="hero-visual">
+
+                <div class="hero-image glass">
+
+                    <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=1200&q=85"
+                        alt="Beautifully prepared restaurant dish">
+
+                    <div class="image-caption">
+                        <span>THE AURELLE EXPERIENCE</span>
+                        <h2>Crafted with passion.</h2>
+                    </div>
+
+                </div>
+
+                <div class="floating-card glass">
+                    <span class="gold-icon">✦</span>
+                    <div>
+                        <strong>Made with Love</strong>
+                        <p>Served with elegance</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Story Section -->
+        <section class="story section" id="story">
+
+            <div class="story-image">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=85"
+                    alt="Elegant restaurant dining table" loading="lazy">
+            </div>
+
+            <div class="story-content">
+
+                <p class="section-label">OUR PHILOSOPHY</p>
+
+                <h2>
+                    More than a meal.
+                    <span>A feeling.</span>
+                </h2>
+
+                <p>
+                    AURELLE brings together the relaxed charm of a modern
+                    cafe and the sophistication of fine dining.
+                </p>
+
+                <p>
+                    Whether it is a coffee date, a casual lunch or a
+                    special celebration, we believe every moment deserves
+                    something extraordinary.
+                </p>
+
+                <div class="signature">
+                    <span>Created with passion by</span>
+                    <strong>Rahul Gupta</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Menu Section -->
+        <section class="menu-section section" id="menu">
+
+            <div class="section-heading">
+
+                <p class="section-label">A WORLD OF FLAVOURS</p>
+
+                <h2>Discover our <span>menu.</span></h2>
+
+                <p>
+                    From comfort food to signature creations,
+                    there is something for every craving.
+                </p>
+
+            </div>
+
+
+            <!-- Menu Filters -->
+            <div class="menu-filters">
+
+                <button class="filter-btn active" data-category="all" type="button">All</button>
+
+                <button class="filter-btn" data-category="starters" type="button">Starters</button>
+
+                <button class="filter-btn" data-category="mains" type="button">Main Course</button>
+
+                <button class="filter-btn" data-category="pizza" type="button">Pizza & Pasta</button>
+
+                <button class="filter-btn" data-category="desserts" type="button">Desserts</button>
+
+                <button class="filter-btn" data-category="drinks" type="button">Beverages</button>
+
+            </div>
+
+
+            <!-- Food Cards -->
+            <div class="menu-grid">
+
+                <article class="food-card glass" data-category="starters">
+
+                    <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=700&q=80"
+                        alt="Paneer starter" loading="lazy">
+
+                    <div class="food-content">
+                        <span class="food-tag">CHEF'S PICK</span>
+                        <div class="food-title">
+                            <h3>Paneer Tikka</h3>
+                            <strong>₹249</strong>
+                        </div>
+                        <p>Smoky paneer with Indian spices and mint chutney.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="starters">
+
+                    <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80"
+                        alt="Crispy french fries" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Peri-Peri Fries</h3>
+                            <strong>₹179</strong>
+                        </div>
+                        <p>Crispy golden fries with a spicy seasoning.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="mains">
+
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+                        alt="Gourmet burger" loading="lazy">
+
+                    <div class="food-content">
+                        <span class="food-tag">BESTSELLER</span>
+                        <div class="food-title">
+                            <h3>Signature Burger</h3>
+                            <strong>₹299</strong>
+                        </div>
+                        <p>Gourmet burger with fresh vegetables and house sauce.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="pizza">
+
+                    <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=80"
+                        alt="Freshly baked pizza" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Farmhouse Pizza</h3>
+                            <strong>₹349</strong>
+                        </div>
+                        <p>Golden crust, fresh vegetables and melted cheese.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="mains">
+
+                    <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=700&q=80"
+                        alt="Indian paneer curry" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Paneer Lababdar</h3>
+                            <strong>₹329</strong>
+                        </div>
+                        <p>Rich paneer curry served with aromatic spices.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="pizza">
+
+                    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
+                        alt="Italian pasta" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Alfredo Pasta</h3>
+                            <strong>₹299</strong>
+                        </div>
+                        <p>Creamy pasta with herbs and a rich Italian flavour.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="desserts">
+
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80"
+                        alt="Chocolate dessert" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Chocolate Delight</h3>
+                            <strong>₹149</strong>
+                        </div>
+                        <p>A rich chocolate dessert for a sweet finish.</p>
+                    </div>
+
+                </article>
+
+
+                <article class="food-card glass" data-category="drinks">
+
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80"
+                        alt="Iced coffee" loading="lazy">
+
+                    <div class="food-content">
+                        <div class="food-title">
+                            <h3>Classic Cold Coffee</h3>
+                            <strong>₹129</strong>
+                        </div>
+                        <p>Chilled, creamy coffee for a refreshing break.</p>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="menu-note">
+                Sample menu and prices. Actual offerings may vary.
+            </p>
+
+        </section>
+
+
+        <!-- Reservation Section -->
+        <section class="reservation section" id="reservation">
+
+            <div class="reservation-box glass">
+
+                <p class="section-label">YOUR TABLE AWAITS</p>
+
+                <h2>Make it a <span>special occasion.</span></h2>
+
+                <p class="reservation-description">
+                    Planning a date, a family dinner or a get-together?
+                    Send us your reservation request.
+                </p>
+
+                <form id="reservationForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="guestName">Your Name</label>
+                            <input type="text" id="guestName" placeholder="Enter your name" autocomplete="name"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guestPhone">Mobile Number</label>
+                            <input type="tel" id="guestPhone" placeholder="10-digit mobile number" inputmode="numeric"
+                                pattern="[6-9][0-9]{9}" maxlength="10" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="bookingDate">Date</label>
+                            <input type="date" id="bookingDate" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guestCount">Guests</label>
+
+                            <select id="guestCount" required>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="7+">7+ Guests</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="primary-button">
+                        Request a Table ↗
+                    </button>
+
+                    <p id="formMessage" class="form-message" aria-live="polite">
+                        Demo form — online booking is not connected yet.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact-section section" id="contact">
+
+            <div class="section-heading">
+
+                <p class="section-label">COME SAY HELLO</p>
+
+                <h2>Find your way <span>to AURELLE.</span></h2>
+
+            </div>
+
+            <div class="contact-grid">
+
+                <article class="contact-card glass">
+                    <span class="contact-icon">⌖</span>
+                    <h3>Our Location</h3>
+                    <p>Alpha 1, Greater Noida,<br>Uttar Pradesh, India</p>
+                    <small>Exact street address to be added.</small>
+                </article>
+
+                <article class="contact-card glass">
+                    <span class="contact-icon">◷</span>
+                    <h3>Opening Hours</h3>
+                    <p>Monday – Sunday<br>11:00 AM – 11:00 PM</p>
+                    <small>Proposed opening hours.</small>
+                </article>
+
+                <article class="contact-card glass">
+                    <span class="contact-icon">✦</span>
+                    <h3>Our Promise</h3>
+                    <p>Thoughtful food.<br>Memorable experiences.</p>
+                    <small>Modern dining by Rahul Gupta.</small>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">AURELLE.</a>
+
+        <p>A modern dining concept by Rahul Gupta.</p>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> AURELLE. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+    ```
+
+</body>
+
+</html>
